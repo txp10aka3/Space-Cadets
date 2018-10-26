@@ -1,0 +1,48 @@
+//Extended Barebones Commands
+// // Comment
+//add X Y; adds value of Y to value of X
+//sub X Y; subtracts value of Y from value of X
+//mul X Y; muliplies value of X by Y
+//div X Y; divides value of X by Y
+
+//old multiply
+clear X;
+incr X;
+incr X;
+clear Y;
+incr Y;
+incr Y;
+incr Y;
+clear Z;
+// clear X;
+while X not 0 do;
+   clear W;
+   while Y not 0 do;
+      incr Z;
+      incr W;
+      decr Y;
+   end;
+   while W not 0 do;
+      incr Y;
+      decr W;
+   end;
+   decr X;
+end;
+//new math
+clear X;
+clear Y;
+clear Z;
+clear W;
+incr X;
+incr X;
+incr Y;
+incr Y;
+incr Y;
+add Z Y;
+sub Z X;
+mul X Y;
+incr Z;
+div X Z;
+
+
+
