@@ -24,7 +24,7 @@ public class BareBonesInterpreter
 			{
 				fileNotFound = false;
 				@SuppressWarnings("resource")
-				Scanner scanner = new Scanner(new File("D:\\Desktop\\BareBones2.txt"));
+				Scanner scanner = new Scanner(new File(file));
 				
 				while (scanner.hasNext())
 				{
